@@ -2,6 +2,7 @@ import FifthTask.SubArray;
 import FirstTask.StrExpEval;
 import FourthTask.Intersection;
 import SecondTask.HappyString;
+import SixthTask.Sequence;
 import ThirdTask.ListNode;
 import ThirdTask.ReversedLinkedList;
 
@@ -65,7 +66,7 @@ public class Main {
          */
 
         //Test Case for FifthTask
-
+        /*
         int[] array = {6, 2, 2, 3, 4, 1};
         int k = 8;
         System.out.println(SubArray.lenOfLongSubarr(array, 8));
@@ -74,5 +75,18 @@ public class Main {
         int[] array2 = {1, 1, 1, 1, 1, 1, 1, 1};
         System.out.println(SubArray.lenOfLongSubarr(array2, 8));
 
+         */
+
+
+        //Test Case for SixthTask
+        /*
+        int[] arr = new int[]{5,1,22,25,6,-1,8,10};
+        int[] arr1 = new int[]{1,6,-1,10};
+        System.out.println(Sequence.isValidSequence(arr, arr1));
+        int[] arr3 = new int[]{5,1,22,25,6,-1,8,10};
+        int[] arr4 = new int[]{1,1,6,-1,10};
+        System.out.println(Sequence.isValidSequence(arr3, arr4));
+
+         */
     }
 }
