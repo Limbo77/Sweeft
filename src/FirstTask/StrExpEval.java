@@ -2,7 +2,7 @@ package FirstTask;
 
 import java.util.Stack;
 
-public class FirstTask {
+public class StrExpEval {
 
     public static int evaluateExpression(String expression){
         Stack<Character> operators = new Stack<>();
