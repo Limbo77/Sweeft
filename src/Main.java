@@ -1,9 +1,11 @@
 import FirstTask.StrExpEval;
+import FourthTask.Intersection;
 import SecondTask.HappyString;
 import ThirdTask.ListNode;
 import ThirdTask.ReversedLinkedList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -46,6 +48,18 @@ public class Main {
         assertEquals(2, reversed.getNext().getNext().getNext().getValue());
         assertEquals(1, reversed.getNext().getNext().getNext().getNext().getValue());
         assertNull(reversed.getNext().getNext().getNext().getNext().getNext());
+
+         */
+
+
+        //Test Case For FourthTask
+        /*
+        int nums1[] = new int[]{1,2,3,3,4,5};
+        int nums2[] = new int[]{3,4,4,5,6,7};
+        int[] arr = Intersection.findIntersection(nums1,nums2);
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i] + " ");
+        }
 
          */
 
