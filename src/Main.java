@@ -1,3 +1,4 @@
+import FifthTask.SubArray;
 import FirstTask.StrExpEval;
 import FourthTask.Intersection;
 import SecondTask.HappyString;
@@ -62,6 +63,16 @@ public class Main {
         }
 
          */
+
+        //Test Case for FifthTask
+
+        int[] array = {6, 2, 2, 3, 4, 1};
+        int k = 8;
+        System.out.println(SubArray.lenOfLongSubarr(array, 8));
+        int[] array1 = {6, 2, 2, 3, 4, 1, 1, 1, 1, 1};
+        System.out.println(SubArray.lenOfLongSubarr(array1, 8));
+        int[] array2 = {1, 1, 1, 1, 1, 1, 1, 1};
+        System.out.println(SubArray.lenOfLongSubarr(array2, 8));
 
     }
 }
