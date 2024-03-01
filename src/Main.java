@@ -1,12 +1,11 @@
-import FirstTask.FirstTask;
+import ThirdTask.ListNode;
+import ThirdTask.ReversedLinkedList;
 
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 public class Main {
 
-    //In this branch, I will be doing the same tasks but with built-in java tools
+    //In this branch, I will be doing the same tasks but with built-in java tools or different solutions
     public static void main(String[] args)  {
         //TestCase for FirstTask
         /*
@@ -17,5 +16,23 @@ public class Main {
             throw new RuntimeException(e);
         }
         */
+
+        //Test Case For ThirdTask
+        /*
+        ListNode head = new ListNode(1);
+        head.setNext(new ListNode(2));
+        head.getNext().setNext(new ListNode(3));
+        head.getNext().getNext().setNext(new ListNode(4));
+        head.getNext().getNext().getNext().setNext(new ListNode(5));
+
+        ListNode reversed = ReversedLinkedList.reverseList(head);
+
+        assertEquals(5, reversed.getValue());
+        assertEquals(4, reversed.getNext().getValue());
+        assertEquals(3, reversed.getNext().getNext().getValue());
+        assertEquals(2, reversed.getNext().getNext().getNext().getValue());
+        assertEquals(1, reversed.getNext().getNext().getNext().getNext().getValue());
+        assertNull(reversed.getNext().getNext().getNext().getNext().getNext());
+         */
     }
 }
